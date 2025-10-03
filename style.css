@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.main{
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(to right,#96afb0 ,#f8e4d2);
+    margin: 20px 10px;
+    border-radius: 20px; 
+    position: relative;
+   
+}
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pro{
+    color: white;
+}
+.nav i{
+    color: white;
+     
+}
+.clean-pro{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ancher a{
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-size: medium;
+}
+.ancher{
+    display: flex;
+    gap: 30px;
+}
+ .btn{
+    display: flex;
+    gap: 8px;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    padding: 5px 20px;
+ }
+ .btn img{
+    mix-blend-mode: multiply;
+ }
+.shirt{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+ 
+ .feature-left {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 28%;
+ 
+}
+.feature-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-center;
+  font-family: Gilroy-Medium, Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 54%;
+  
+}
+
+.main h1{
+   font-size: 80px;
+   font-weight: 500;
+   position: absolute;
+   top: 40%;
+   left: 19%;
+   line-height: 0.9;
+  font-family: Gilroy-Bold, Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  color: rgb(233, 228, 228);
+}
+.stars {
+  position: absolute;
+  top: 35%;
+  left: 19%;
+}
+.stars svg {
+  height: 30px;
+  width: 30px;
+}
+.top{
+    position: absolute;
+    z-index: 999;
+}
+.bottom{
+    position: absolute;
+    z-index: -1;
+}
+.card{
+    width: 155px;
+    height: 200px;
+     background: #dedad7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+    background: beige;
+    border-radius: 0.8em;
+}
+.card h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.card p{
+    font-weight: 200;
+   font-family: Gilroy-Medium, Arial, Helvetica, sans-serif;
+    
+}
+ .bottom{
+  width: 100%;
+  background-color: #1d2a2e;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+ }
+ 
+ .bottom-layer {
+  width: 100%;
+   padding-top: 20px;;
+  background-color: #1d2a2e;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+   
+}
+
+.bottom-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-left img {
+  height: 40px;
+  width: 40px;
+  border-radius: 0.75rem;
+}
+
+.second {
+  margin-left: -0.5rem;
+  border-left: 3px solid #1d2a2e;
+}
+
+.third {
+  margin-left: -0.5rem;
+  border-left: 3px solid #1d2a2e;
+}
+
+.fourth {
+  margin-left: 0.25rem;
+}
+
+.fifth {
+  margin-left: 0.5rem;
+}
+
+.text {
+  font-size: 36px;
+  font-family: Gilroy-Medium, Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 1rem;
+}
+
+button {
+  background: white;
+  border: none;
+  color: #2c2c2c;
+  font-size: 16px;
+  font-family: Gilroy-Medium, Arial, Helvetica, sans-serif;
+  padding: 10px 30px;
+  border-radius: 0.75rem;
+}
+
+button svg {
+  height: 16px;
+  width: 16px;
+  margin-left: 8px;
+}
